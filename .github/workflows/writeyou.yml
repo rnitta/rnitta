@@ -1,0 +1,16 @@
+name: writeyou
+
+on:
+  schedule:
+    - cron:  '* 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: execute
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: sh ./execute.sh
