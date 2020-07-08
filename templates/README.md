@@ -1,8 +1,8 @@
 Me!
 
 # Respositories Stats
-Star Counts: {{STARS}}  
-Fork Counts: {{FORKS}}
+Stars Count: {{STARS}}  
+Forks Count: {{FORKS}}
 
 {{DATE}}  
 
